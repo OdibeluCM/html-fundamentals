@@ -5,59 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  
 </head>
 <body>
 
   <!-- the header section -->
 
-<header>
+<header class="navbar">
+  <h3 class="logo">MY PROFILE</h3>
   <nav>
-    <a href="/home/">HOME</a>
-    <a href="/about/">ABOUT</a>
-    <a href="/work/">WORK</a>
-    <a href="/resume/">RESUME</a>
-    <a href="/contact/">CONTACT</a>
+    <ul class="nav-links">
+      <li><a href="/home/">home</a></li>
+      <li><a href="/about/">about</a></li>
+      <li><a href="/work/">work</a></li>
+      <li><a href="/resume/">resume</a></li>
+    </ul>
   </nav>
+  <a href="#" class="btn"><button>contacts</button></a>
 </header>
 
 
-<section>
-  <h1>Good-day, I am Odibelu Chinonso</h1>
-  <p>I specialize in the web development field with a lot of experience</p>
-  <img src="/myfirstproject/comrade.jpg" alt="profile-pic">
-
-  <h2>Here are some of my projects</h2>
+<section class="text">
+  <h1>WEB <br>DEVELOPER</h1>
+  <p>I am Odibelu Chinonso,<br>I specialize in the web development field with a lot of experience.</p>
+  <img src="./pic.jpg" alt="" class="user-img" >
     
 </section>
 
-<br>
 
-<!-- this is the youtube video -->
+<section class="video">
+  <h3>Here is a short video of my project</h3>
+  <iframe width="430" height="300" src="https://www.youtube.com/watch?v=DsKRznEbT7I">youtube</iframe>
 
-<iframe width="430" height="300" src="https://www.youtube.com/watch?v=DsKRznEbT7I">youtube</iframe>
-
-<br>
-
-<!-- this is for the form -->
-<section>
-  <form action="">
-    <label for="about"><b>about</b></label><br>
-    <input type="text" id="about" name="about"><br>
-
-    <label for="work"><b>work</b></label><br>
-    <input type="text" id="work" name="work"><br>
-
-    <label for="resume"><b>resume</b></label><br>
-    <input type="text" id="resume" name="resume"><br>
-
-    <label for="contact"><b>contact</b></label><br>
-    <input type="text" id="contact" name="contact"><br>
-  </form>
 </section>
 
-<!-- this is the footer -->
-<footer>
+
+
+<!-- 
+this is the footer -->
+<footer class="footer">
   <p>I strive to make quality, beautiful, and user-friendly websites </p>
+  <a href="#" class="btn"><button>contact</button></a>
+
 </footer>
   
   
